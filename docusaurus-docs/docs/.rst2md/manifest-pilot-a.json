@@ -1,0 +1,407 @@
+{
+  "assets": [
+    {
+      "output": "openvino-workflow/running-inference/inference-request/stateful-models/applying_low_latency_2.svg",
+      "sha256": "a0828eeecf3f18cd0a38d725adcc5223e7f4c510b976014b7a4c88ea86373a10",
+      "source": "assets/images/applying_low_latency_2.svg"
+    },
+    {
+      "output": "openvino-workflow/running-inference/inference-request/stateful-models/llt2_use_const_initializer.svg",
+      "sha256": "081d84aa59dce2ab48bf9627152bb7de04011f7e271eb832169612d1ca9fc52f",
+      "source": "assets/images/llt2_use_const_initializer.svg"
+    },
+    {
+      "output": "openvino-workflow/running-inference/inference-request/stateful-models/low_latency_limitation_2.svg",
+      "sha256": "89186ffddf7b4de299bda65def488b7d396e6795c919b1277e9dbf96afe86d75",
+      "source": "assets/images/low_latency_limitation_2.svg"
+    },
+    {
+      "output": "openvino-workflow/running-inference/inference-request/stateful-models/make_stateful_detailed.png",
+      "sha256": "3055db5a9ec85ae0edf769ec9ab4dd2a4ec55b5d9fe0fd37e585050ca4b29344",
+      "source": "assets/images/make_stateful_detailed.png"
+    },
+    {
+      "output": "openvino-workflow/running-inference/inference-request/stateful-models/make_stateful_simple.svg",
+      "sha256": "ac203351e71f4b1f9251bc453ad6779c7008e313b6cc2851dfb263d86be0a354",
+      "source": "assets/images/make_stateful_simple.svg"
+    },
+    {
+      "output": "openvino-workflow/running-inference/inference-request/stateful_model_example.svg",
+      "sha256": "84c1a9f26562575448f6ab2e4d0ae788f2413250932b0bee522e84c6b7f4c0b2",
+      "source": "assets/images/stateful_model_example.svg"
+    },
+    {
+      "output": "openvino-workflow/running-inference/inference-request/stateful_model_init_subgraph.svg",
+      "sha256": "9c2d4abc9aafd9b1cb9e5cde3c3a8001f797ad747e1473c638977e94a931167e",
+      "source": "assets/images/stateful_model_init_subgraph.svg"
+    }
+  ],
+  "destination_root": ".",
+  "files": [
+    {
+      "construct_counts": {
+        "admonition:note": 1,
+        "admonition:warning": 2,
+        "bullet_list": 1,
+        "directive:doxygensnippet": 4,
+        "directive:meta": 1,
+        "directive:note": 1,
+        "directive:warning": 2,
+        "heading": 5,
+        "paragraph": 13
+      },
+      "dependencies": [
+        {
+          "fragment": "[direct_inference]",
+          "kind": "doxygensnippet",
+          "sha256": "3677037875bd8b7331fb8e672f78b3f62fcc4cf8f6488c25daeb69a85a81d18b",
+          "source": "docs/articles_en/assets/snippets/ov_python_inference.py"
+        },
+        {
+          "fragment": "[hiding_latency]",
+          "kind": "doxygensnippet",
+          "sha256": "3677037875bd8b7331fb8e672f78b3f62fcc4cf8f6488c25daeb69a85a81d18b",
+          "source": "docs/articles_en/assets/snippets/ov_python_inference.py"
+        },
+        {
+          "fragment": "[no_return_inference]",
+          "kind": "doxygensnippet",
+          "sha256": "3677037875bd8b7331fb8e672f78b3f62fcc4cf8f6488c25daeb69a85a81d18b",
+          "source": "docs/articles_en/assets/snippets/ov_python_inference.py"
+        },
+        {
+          "fragment": "[shared_memory_inference]",
+          "kind": "doxygensnippet",
+          "sha256": "3677037875bd8b7331fb8e672f78b3f62fcc4cf8f6488c25daeb69a85a81d18b",
+          "source": "docs/articles_en/assets/snippets/ov_python_inference.py"
+        }
+      ],
+      "diagnostic_counts": {},
+      "output": "openvino-workflow/running-inference/inference-request/python-api-advanced-inference.md",
+      "output_sha256": "b07b39e74e15bb485188e01d83b78e1870b2a9e6ac826c51f23298f881a8d336",
+      "source": "openvino-workflow/running-inference/inference-request/python-api-advanced-inference.rst",
+      "source_sha256": "9a4298cf74c7a85d033cd495e9881822e5d10f748021889813d8b59ff8080ca1",
+      "status": "converted"
+    },
+    {
+      "construct_counts": {
+        "admonition:note": 2,
+        "admonition:warning": 2,
+        "bullet_list": 1,
+        "directive:doxygensnippet": 14,
+        "directive:meta": 1,
+        "directive:note": 2,
+        "directive:warning": 2,
+        "heading": 14,
+        "paragraph": 46
+      },
+      "dependencies": [
+        {
+          "fragment": "[asyncinferqueue]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[asyncinferqueue_access]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[asyncinferqueue_set_callback]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[auto_compilation]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[getting_results]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[ov_dict]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[packing_data]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[passing_numpy_array]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[properties_example]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[releasing_gil]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[sync_infer]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[tensor_basics]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[tensor_shared_mode]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        },
+        {
+          "fragment": "[unpacking]",
+          "kind": "doxygensnippet",
+          "sha256": "f94dd47610363f7dd0c0d059756f9c3e00846f541b246c8eeb532a6bd35222c7",
+          "source": "docs/articles_en/assets/snippets/ov_python_exclusives.py"
+        }
+      ],
+      "diagnostic_counts": {
+        "info": 1
+      },
+      "output": "openvino-workflow/running-inference/inference-request/python-api-exclusives.md",
+      "output_sha256": "acf46308b02fb87eef959c7acad52b1030bb86545d7621005fe9e7096b3a8f34",
+      "source": "openvino-workflow/running-inference/inference-request/python-api-exclusives.rst",
+      "source_sha256": "0658e7715cc5202ed3141803850e1588959e8482c6a9e394cbf754d77220d3ee",
+      "status": "converted"
+    },
+    {
+      "construct_counts": {
+        "admonition:note": 1,
+        "bullet_list": 1,
+        "directive:code-block": 1,
+        "directive:doxygensnippet": 18,
+        "directive:image": 5,
+        "directive:note": 1,
+        "directive:tab-item": 22,
+        "directive:tab-set": 11,
+        "enumerated_list": 1,
+        "heading": 4,
+        "image": 5,
+        "paragraph": 28,
+        "role:doc": 14,
+        "role:ref": 3
+      },
+      "dependencies": [
+        {
+          "fragment": "[ov:apply_low_latency_2]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:get_ov_model]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:low_latency_2]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:low_latency_2_use_parameters]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:make_stateful_ov_nodes]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:make_stateful_tensor_names]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:replace_const]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:reshape_ov_model]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:stateful_model]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        },
+        {
+          "fragment": "[ov:apply_low_latency_2]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:get_ov_model]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:low_latency_2]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:low_latency_2_use_parameters]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:make_stateful_ov_nodes]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:make_stateful_tensor_names]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:replace_const]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:reshape_ov_model]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        },
+        {
+          "fragment": "[ov:stateful_model]",
+          "kind": "doxygensnippet",
+          "sha256": "0869df33cf69156d63a22ca4d6dcf6d2e26e00f78a368a8e80550e14b799ff5f",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.py"
+        }
+      ],
+      "diagnostic_counts": {
+        "info": 12
+      },
+      "output": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.md",
+      "output_sha256": "b6cca72ddfc569ddc2a0c12b968abd2eb5fe871a647151be397103dc7b1004ac",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "source_sha256": "89e52ae383e42b2be8b1225c2e2a906f316fe8cf645767ff209f2c31d371a11d",
+      "status": "converted"
+    },
+    {
+      "construct_counts": {
+        "bullet_list": 3,
+        "directive:doxygensnippet": 1,
+        "directive:image": 2,
+        "directive:tab": 1,
+        "directive:toctree": 1,
+        "enumerated_list": 1,
+        "heading": 4,
+        "image": 2,
+        "line_block": 5,
+        "paragraph": 18,
+        "role:doc": 3,
+        "role:ref": 2
+      },
+      "dependencies": [
+        {
+          "fragment": "[ov:state_api_usage]",
+          "kind": "doxygensnippet",
+          "sha256": "2d984dcb0a513ac7f6966b8df738355b2ea91a6047db718b67c24664e08fc3cf",
+          "source": "docs/articles_en/assets/snippets/ov_stateful_models_intro.cpp"
+        }
+      ],
+      "diagnostic_counts": {
+        "info": 5
+      },
+      "output": "openvino-workflow/running-inference/inference-request/stateful-models.md",
+      "output_sha256": "3e2e9194d60705483536153880849552fa2a795cb5e0aefbb30001c4349281d6",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models.rst",
+      "source_sha256": "9b89e00f1aa0ebffebe398deebfaaff654de6f05c2a71f9ea1bacb8921b666e9",
+      "status": "converted"
+    }
+  ],
+  "labels": {
+    "ov_ug_low_latency": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.md",
+    "ov_ug_make_stateful": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.md",
+    "ov_ug_stateful_model_inference": "openvino-workflow/running-inference/inference-request/stateful-models.md"
+  },
+  "navigation": [],
+  "repository_root": "/home/michalx/openvino",
+  "schema_version": 1,
+  "source_root": "/home/michalx/openvino/docs/articles_en",
+  "strict": false,
+  "strict_blocked": false,
+  "summary": {
+    "assets": 7,
+    "construct_counts": {
+      "admonition:note": 4,
+      "admonition:warning": 4,
+      "bullet_list": 6,
+      "directive:code-block": 1,
+      "directive:doxygensnippet": 37,
+      "directive:image": 7,
+      "directive:meta": 2,
+      "directive:note": 4,
+      "directive:tab": 1,
+      "directive:tab-item": 22,
+      "directive:tab-set": 11,
+      "directive:toctree": 1,
+      "directive:warning": 4,
+      "enumerated_list": 2,
+      "heading": 27,
+      "image": 7,
+      "line_block": 5,
+      "paragraph": 105,
+      "role:doc": 17,
+      "role:ref": 5
+    },
+    "diagnostics": 18,
+    "diagnostics_by_severity": {
+      "info": 18
+    },
+    "lossy_diagnostics": 3,
+    "pages": 4,
+    "unsupported_diagnostics": 1
+  },
+  "tool": "openvino-rst-to-md",
+  "tool_version": "0.1.0"
+}

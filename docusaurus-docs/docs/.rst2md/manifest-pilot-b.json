@@ -1,0 +1,129 @@
+{
+  "assets": [],
+  "destination_root": ".",
+  "files": [
+    {
+      "construct_counts": {
+        "directive:dropdown": 1,
+        "directive:meta": 1,
+        "heading": 2,
+        "line_block": 7,
+        "paragraph": 115,
+        "role:doc": 18,
+        "table": 3
+      },
+      "dependencies": [],
+      "diagnostic_counts": {
+        "info": 19,
+        "warning": 1
+      },
+      "output": "documentation/compatibility-and-support/supported-devices.md",
+      "output_sha256": "bdf6fd3f55f5469a675c87dc74245f09a3905417b8644ae3c4e1ddf0eef00111",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "source_sha256": "34babd061d1692da086b900d9c8f518b03de1397355167aa36fca761de52f611",
+      "status": "converted"
+    },
+    {
+      "construct_counts": {
+        "directive:data-table": 1,
+        "heading": 1,
+        "line_block": 1,
+        "paragraph": 2
+      },
+      "dependencies": [],
+      "diagnostic_counts": {
+        "error": 1,
+        "info": 1,
+        "warning": 1
+      },
+      "output": "documentation/compatibility-and-support/supported-models-onnx.md",
+      "output_sha256": "993f7170550ed3efdfe675a0dfc9350c6172c72f407ec9c53a399587ceb70b47",
+      "source": "documentation/compatibility-and-support/supported-models-onnx.rst",
+      "source_sha256": "6c13a7a6785725a0f417429024580e860c9ca97be8cee97ee61af204693134c0",
+      "status": "converted"
+    },
+    {
+      "construct_counts": {
+        "directive:data-table": 1,
+        "heading": 1,
+        "line_block": 1,
+        "paragraph": 2
+      },
+      "dependencies": [],
+      "diagnostic_counts": {
+        "error": 2,
+        "info": 1
+      },
+      "output": "documentation/compatibility-and-support/supported-models.md",
+      "output_sha256": "6ff10bbc11a899a218855f401ce59a8f38e98c2f3bc0a7241bdab973f7e323f5",
+      "source": "documentation/compatibility-and-support/supported-models.rst",
+      "source_sha256": "19b91b54dba9a8e6d4e2929e77fabaf12662c8cf6fcc0e9bf45da0adfe328981",
+      "status": "converted"
+    },
+    {
+      "construct_counts": {
+        "directive:button-link": 2,
+        "directive:data-table": 3,
+        "directive:grid": 1,
+        "directive:grid-item": 2,
+        "directive:meta": 1,
+        "directive:tab-item": 6,
+        "directive:tab-set": 1,
+        "heading": 1,
+        "paragraph": 423,
+        "table": 6
+      },
+      "dependencies": [],
+      "diagnostic_counts": {
+        "error": 3,
+        "info": 1
+      },
+      "output": "documentation/compatibility-and-support/supported-operations.md",
+      "output_sha256": "5786c3b62ee9289613df0bb6c94d26feceaa8f21e8adf39b999c523bdd4196ea",
+      "source": "documentation/compatibility-and-support/supported-operations.rst",
+      "source_sha256": "ea72c85412c298cc83273c43b5a092db00b476f1f4ea0279ebf275234f26b0af",
+      "status": "converted"
+    }
+  ],
+  "labels": {
+    "paddle_ops": "documentation/compatibility-and-support/supported-operations.md",
+    "supportedmodelstable": "documentation/compatibility-and-support/supported-models-onnx.md",
+    "tensorflow_ops_v1": "documentation/compatibility-and-support/supported-operations.md",
+    "tensorflow_ops_v2": "documentation/compatibility-and-support/supported-operations.md"
+  },
+  "navigation": [],
+  "repository_root": "/home/michalx/openvino",
+  "schema_version": 1,
+  "source_root": "/home/michalx/openvino/docs/articles_en",
+  "strict": false,
+  "strict_blocked": false,
+  "summary": {
+    "assets": 0,
+    "construct_counts": {
+      "directive:button-link": 2,
+      "directive:data-table": 5,
+      "directive:dropdown": 1,
+      "directive:grid": 1,
+      "directive:grid-item": 2,
+      "directive:meta": 2,
+      "directive:tab-item": 6,
+      "directive:tab-set": 1,
+      "heading": 5,
+      "line_block": 9,
+      "paragraph": 542,
+      "role:doc": 18,
+      "table": 9
+    },
+    "diagnostics": 30,
+    "diagnostics_by_severity": {
+      "error": 6,
+      "info": 22,
+      "warning": 2
+    },
+    "lossy_diagnostics": 6,
+    "pages": 4,
+    "unsupported_diagnostics": 9
+  },
+  "tool": "openvino-rst-to-md",
+  "tool_version": "0.1.0"
+}

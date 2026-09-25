@@ -1,0 +1,213 @@
+{
+  "diagnostics": [
+    {
+      "code": "relative_html_link_rendered_as_html",
+      "construct": "link",
+      "lossy": false,
+      "message": "relative HTML hyperlink was rendered as an HTML anchor to prevent MyST from treating it as a document xref: ../../../api/ie_python_api/api.html",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/python-api-exclusives.rst",
+      "unsupported": false
+    },
+    {
+      "code": "image_sizing_options_dropped",
+      "construct": "image",
+      "lossy": true,
+      "message": "image directive option(s) align have no Docusaurus Markdown-image equivalent (needed so the asset is picked up by the webpack pipeline instead of 404ing); the image renders at its natural size",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models.rst",
+      "unsupported": false
+    },
+    {
+      "code": "myst_directive_left_unconverted",
+      "construct": "directive:tab",
+      "lossy": true,
+      "message": "MyST directive 'tab' has no Docusaurus MDX conversion yet; left as a fenced code block (renders, but not native)",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models.rst",
+      "unsupported": true
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 58,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../documentation/openvino-ir-format/operation-sets/operation-specs/infrastructure/read-value-6",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 60,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../documentation/openvino-ir-format/operation-sets/operation-specs/infrastructure/assign-6",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 69,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../openvino-workflow-generative/inference-with-optimum-intel",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models.rst",
+      "unsupported": false
+    },
+    {
+      "code": "image_sizing_options_dropped",
+      "construct": "image",
+      "lossy": true,
+      "message": "image directive option(s) align have no Docusaurus Markdown-image equivalent (needed so the asset is picked up by the webpack pipeline instead of 404ing); the image renders at its natural size",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 4,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../../documentation/openvino-ir-format/operation-sets/operation-specs/infrastructure/assign-6",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 4,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../../documentation/openvino-ir-format/operation-sets/operation-specs/infrastructure/read-value-6",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 11,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../../openvino-workflow-generative",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 38,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../../documentation/openvino-extensibility/transformation-api",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 108,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../../documentation/openvino-ir-format/operation-sets/operation-specs/infrastructure/loop-5",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 108,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../../documentation/openvino-ir-format/operation-sets/operation-specs/infrastructure/tensor-iterator-1",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 127,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../model-representation",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 147,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../model-input-output/changing-input-shape",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 253,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../model-input-output/changing-input-shape",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 258,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../../model-preparation/conversion-parameters",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 286,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../model-representation",
+      "severity": "info",
+      "source": "openvino-workflow/running-inference/inference-request/stateful-models/obtaining-stateful-openvino-model.rst",
+      "unsupported": false
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "assets": 7,
+    "construct_counts": {
+      "admonition:note": 4,
+      "admonition:warning": 4,
+      "bullet_list": 6,
+      "directive:code-block": 1,
+      "directive:doxygensnippet": 37,
+      "directive:image": 7,
+      "directive:meta": 2,
+      "directive:note": 4,
+      "directive:tab": 1,
+      "directive:tab-item": 22,
+      "directive:tab-set": 11,
+      "directive:toctree": 1,
+      "directive:warning": 4,
+      "enumerated_list": 2,
+      "heading": 27,
+      "image": 7,
+      "line_block": 5,
+      "paragraph": 105,
+      "role:doc": 17,
+      "role:ref": 5
+    },
+    "diagnostics": 18,
+    "diagnostics_by_severity": {
+      "info": 18
+    },
+    "lossy_diagnostics": 3,
+    "pages": 4,
+    "unsupported_diagnostics": 1
+  }
+}

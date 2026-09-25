@@ -1,0 +1,325 @@
+{
+  "diagnostics": [
+    {
+      "code": "complex_table_rendered_as_html",
+      "construct": "table",
+      "lossy": true,
+      "message": "complex table was rendered as HTML to retain spans and text; inline cell semantics require review",
+      "severity": "warning",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "myst_directive_left_unconverted",
+      "construct": "directive:dropdown",
+      "lossy": true,
+      "message": "MyST directive 'dropdown' has no Docusaurus MDX conversion yet; left as a fenced code block (renders, but not native)",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": true
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 9,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/cpu-device",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 9,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/gpu-device",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 9,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/npu-device",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 15,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 16,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../about-openvino/release-notes-openvino/system-requirements",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 22,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 27,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 31,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/automatic-batching",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 41,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 42,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 43,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-devices-and-modes/automatic-batching",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 44,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/optimize-inference/optimizing-throughput",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 45,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/optimize-inference/optimizing-latency/model-caching-overview",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 46,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/model-input-output/dynamic-shapes",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 47,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/optimize-inference/optimize-preprocessing",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 48,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference/inference-request/stateful-models",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 49,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../documentation/openvino-extensibility",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "link_target_outside_selected_section",
+      "construct": "role:doc",
+      "line": 75,
+      "lossy": false,
+      "message": "link target is outside the converted section: ../../openvino-workflow/running-inference",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-devices.rst",
+      "unsupported": false
+    },
+    {
+      "code": "data_table_flattened_to_static_html",
+      "construct": "directive:data-table",
+      "lossy": true,
+      "message": "data-table CSV supported_models_onnx.csv was rendered as a static HTML table; the original DataTables.js sort/search/pagination behavior is not preserved and needs an editorial/component decision if required",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-models-onnx.rst",
+      "unsupported": false
+    },
+    {
+      "code": "unknown_docutils_node",
+      "construct": "docinfo",
+      "lossy": true,
+      "message": "unknown Docutils node preserved as text: docinfo",
+      "severity": "warning",
+      "source": "documentation/compatibility-and-support/supported-models-onnx.rst",
+      "unsupported": true
+    },
+    {
+      "code": "asset_missing",
+      "construct": "asset",
+      "line": 11,
+      "lossy": false,
+      "message": "referenced asset does not exist: ../../_static/download/supported_models_onnx.csv",
+      "severity": "error",
+      "source": "documentation/compatibility-and-support/supported-models-onnx.rst",
+      "unsupported": true
+    },
+    {
+      "code": "data_table_flattened_to_static_html",
+      "construct": "directive:data-table",
+      "lossy": true,
+      "message": "data-table CSV supported_models_263.csv was rendered as a static HTML table; the original DataTables.js sort/search/pagination behavior is not preserved and needs an editorial/component decision if required",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-models.rst",
+      "unsupported": false
+    },
+    {
+      "code": "duplicate_explicit_label",
+      "construct": "anchor",
+      "lossy": false,
+      "message": "explicit label occurs in more than one page: supportedmodelstable",
+      "severity": "error",
+      "source": "documentation/compatibility-and-support/supported-models.rst",
+      "unsupported": true
+    },
+    {
+      "code": "asset_missing",
+      "construct": "asset",
+      "line": 9,
+      "lossy": false,
+      "message": "referenced asset does not exist: ../../_static/download/supported_models_263.csv",
+      "severity": "error",
+      "source": "documentation/compatibility-and-support/supported-models.rst",
+      "unsupported": true
+    },
+    {
+      "code": "myst_directive_left_unconverted",
+      "construct": "directive:grid",
+      "lossy": true,
+      "message": "MyST directive 'grid' has no Docusaurus MDX conversion yet; left as a fenced code block (renders, but not native)",
+      "severity": "info",
+      "source": "documentation/compatibility-and-support/supported-operations.rst",
+      "unsupported": true
+    },
+    {
+      "code": "asset_missing",
+      "construct": "asset",
+      "line": 44,
+      "lossy": false,
+      "message": "referenced asset does not exist: ../../_static/conformance_files/pytorch_ops.csv",
+      "severity": "error",
+      "source": "documentation/compatibility-and-support/supported-operations.rst",
+      "unsupported": true
+    },
+    {
+      "code": "asset_missing",
+      "construct": "asset",
+      "line": 55,
+      "lossy": false,
+      "message": "referenced asset does not exist: ../../_static/conformance_files/tensorflow_ops.csv",
+      "severity": "error",
+      "source": "documentation/compatibility-and-support/supported-operations.rst",
+      "unsupported": true
+    },
+    {
+      "code": "asset_missing",
+      "construct": "asset",
+      "line": 66,
+      "lossy": false,
+      "message": "referenced asset does not exist: ../../_static/conformance_files/paddlepaddle_ops.csv",
+      "severity": "error",
+      "source": "documentation/compatibility-and-support/supported-operations.rst",
+      "unsupported": true
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "assets": 0,
+    "construct_counts": {
+      "directive:button-link": 2,
+      "directive:data-table": 5,
+      "directive:dropdown": 1,
+      "directive:grid": 1,
+      "directive:grid-item": 2,
+      "directive:meta": 2,
+      "directive:tab-item": 6,
+      "directive:tab-set": 1,
+      "heading": 5,
+      "line_block": 9,
+      "paragraph": 542,
+      "role:doc": 18,
+      "table": 9
+    },
+    "diagnostics": 30,
+    "diagnostics_by_severity": {
+      "error": 6,
+      "info": 22,
+      "warning": 2
+    },
+    "lossy_diagnostics": 6,
+    "pages": 4,
+    "unsupported_diagnostics": 9
+  }
+}
