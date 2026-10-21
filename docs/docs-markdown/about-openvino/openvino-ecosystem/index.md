@@ -12,7 +12,7 @@ in various areas of your Deep Learning pipelines. This section will give you an 
 whole ecosystem of resources either developed under the OpenVINO umbrella, integrating it with
 external solutions, or utilizing its potential.
 
-[OpenVINO Integrations](openvino-integrations.md)  
+[OpenVINO Integrations](openvino-integrations/index.md)  
 See what other tools OpenVINO is easily integrated with and how you can benefit from its
 performance, without rewriting your software.
 

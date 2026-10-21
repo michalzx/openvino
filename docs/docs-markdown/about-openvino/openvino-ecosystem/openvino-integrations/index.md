@@ -28,7 +28,7 @@ Benefits:
 </div>
 <div style={{flex: '1 1 300px'}}>
 
-- [Run inference with HuggingFace and Optimum Intel](../../openvino-workflow-generative/inference-with-optimum-intel)
+- [Run inference with HuggingFace and Optimum Intel](../../../openvino-workflow-generative/inference-with-optimum-intel)
 - [A notebook example: llm-chatbot](https://github.com/openvinotoolkit/openvino_notebooks/tree/latest/notebooks/llm-chatbot)
 - [Hugging Face Inference documentation](https://huggingface.co/docs/optimum/main/intel/openvino/inference)
 - [Hugging Face Compression documentation](https://huggingface.co/docs/optimum/main/intel/openvino/optimization)
@@ -127,7 +127,7 @@ Benefits:
 </div>
 <div style={{flex: '1 1 300px'}}>
 
-- [PyTorch Deployment via torch.compile](../../openvino-workflow/torch-compile.md)
+- [PyTorch Deployment via torch.compile](../../../openvino-workflow/torch-compile.md)
 - [torch.compiler documentation](https://pytorch.org/docs/stable/torch.compiler.html)
 - [torch.compiler API reference](https://pytorch.org/docs/stable/torch.compiler_api.html)
 
@@ -164,7 +164,7 @@ Benefits:
 </div>
 <div style={{flex: '1 1 300px'}}>
 
-- [LLM inference with Optimum-intel](../../openvino-workflow-generative/inference-with-optimum-intel)
+- [LLM inference with Optimum-intel](../../../openvino-workflow-generative/inference-with-optimum-intel)
 - [A notebook example: llm-agent-rag](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/llm-agent-react/llm-agent-rag-llamaindex.ipynb)
 - [Inference documentation](https://docs.llamaindex.ai/en/stable/examples/llm/openvino/)
 - [Rerank documentation](https://docs.llamaindex.ai/en/stable/examples/node_postprocessor/openvino_rerank/)
